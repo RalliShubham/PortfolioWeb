@@ -407,3 +407,17 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+#Certifications a {
+        color: white;
+        text-decoration: none; /* Optional: Remove underlines from links */
+    }
+
+    #Certifications a:hover {
+        text-decoration: underline; /* Optional: Underline links on hover */
+    }
+#Certifications span {
+    font-size: 1.2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+    display: block; /* Optional: Ensure each title is on a new line */
+    margin-bottom: 5px; /* Optional: Add some space below each title */
+    }
