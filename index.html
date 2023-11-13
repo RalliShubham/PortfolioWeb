@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d1ea862e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Expertise">My Expertise</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext">
+            <p>Business/Data Analyst</p>
+            <h1>Hi, I'm <span>Shubham Ralli </span><br> from Dallas</h1>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Shubham Ralli, a Business Analytics major at The University of Texas at Dallas, slated to graduate in May 2025 with a 3.9 GPA. Proficient in SQL, Python, Tableau, and more, my academic journey is complemented by hands-on experiences. <br> <br>I've led impactful initiatives, from orchestrating an international deans conference with a 95% satisfaction rate to boosting student participation by 40% through innovative social marketing.
+
+                    My expertise extends to data analysis, evident in successful projects like the Python-based kayak rental system and Walmart sales forecasting, contributing to revenue boosts. <br><br>Certified by IBM and Google as a Data Analyst, I've completed virtual internships with KPMG and Accenture, further honing my skills in Data Analytics and Visualization.
+                    
+                    Beyond academics, I've led environmental initiatives, spearheading school-wide plantation drives and increasing green space by 10%. <br><br>As I transition to an F1 visa, I'm eager to leverage my skills and experiences to make meaningful contributions in the dynamic field of Business Analytics. Connect with me on LinkedIn or via email at shubham.ralli@utdallas.edu. Let's explore opportunities together!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SQL</span><br>Query Optimization, Data Analysis & Database Management</li>
+                            <li><span>Tableau</span><br>Data Viz, Dashboard Development & Tableau Analytics</li>
+                            <li><span>Python</span><br>Data Wrangling, Programmatic Logic & Algorithmic Implementation</li>
+                            <li><span>SAP</span><br>Crystal Reporting</li>
+                            <li><span>Microsoft Integration Services</span><br>SSIS, SSAS, SSRS</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>October 2022-Present</span><br>Student Engagement and Events Coordinator at The Undergraduate Dean's Office at UTD, Richardson</li>
+                            <li><span>Septermber 2022-Present</span><br>Academic Student Advisor at The Undergraduate Dean's Office at UTD, Richardson</li>
+                            <li><span>December 2022-Present</span><br>Member of Big Data Club</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Aug 2021-Dec 2025</span><br>Bachelor's of Science in Business Analytics at The University of Texas at Dallas, Richardson, TX</li>
+                            <li><span>Aug 2015-May 2021</span><br>High School Diploma from Ryan Internation School, Delhi</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>IBM Certified Data Analyst</span><br><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AMT5LLMW8AP3"> <br> IBM Data Analyst Certificate Verification</a></li>
+                            <li><span>Google Cyber Security Professional Certification</span><br><a href="https://www.coursera.org/account/accomplishments/professional-cert/9SF8AP5BJQX6"><br> Google Cybersecurity Certificate Verification</a></li>
+                            <li><span>Google Data Analytics Professional Certification</span><br><a href="https://www.coursera.org/account/accomplishments/professional-cert/BRMSFGP34AZ2"><br> Google Data Analytics Certificate Verification</a></li>
+                            <li><span>KPMG Data Analytics Consulting Virtual Internship</span><br><br> Credential ID y6QY4eRYbB7wMzhDd</li>
+                            <li><span>Microsoft Analysis Career Essentials</span><br><a href="https://www.linkedin.com/learning/certificates/23be258a64358cfa60add110669072439f422ed7de26eb263e7a6ba6ae74aa74?u=70198226"><br>Microsoft Career Essentials Certificate Verification</a></li>
+                            <li><span>Accenture Data Analytics and Visualization Virtual Experience</span><br><br>Credential ID mBuxkthDCXw9gGmTb</li>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- _____________services------------------------------ -->
+<div id="Expertise">
+    <div class="container">
+        <h1 class="sub-title">My Expertise</h1>
+        <div class="Expertise-list">
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Tableau</h2>
+                <p>I am pretty good in Tableau</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p>I am pretty good in SQL</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>I am pretty good in Python</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Tableau Visualization</h3>
+                    <p>This shows multiple dashboard Visualization</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>SQL</h3>
+                    <p>This shows multiple SQL Projects</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Python</h3>
+                    <p>This shows multiple Python Projects</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+<!-------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shubhamralli57@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9407582190</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/shubhamralli"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/ralli.shubham?igshid=ZWN0YXF5OTV1aDJy&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/shubham.ralli.50?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/ralli-resume.pdf.pdf"  download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Shubham. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwK5k3ZwdD94kfgoD-tKvVFJmIdpWO8uuJZhhxbTnKtQCYxyriJq70YvSHMkyv4jFWs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    }) 
+  </script>
+</body>
+</html>
